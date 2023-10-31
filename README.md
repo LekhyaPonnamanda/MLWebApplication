@@ -1,3 +1,10 @@
+<img width="960" alt="MLWebapp_startup page" src="https://github.com/LekhyaPonnamanda/MLWebApplication/assets/127657495/5bf5d80b-17de-437b-a85e-ea4b3908c056">
+<img width="899" alt="MLWebapp_resultspage" src="https://github.com/LekhyaPonnamanda/MLWebApplication/assets/127657495/c8a1fc9f-99bd-4474-852d-e4f933dca0db">
+<img width="953" alt="MLWebapp_resultspage2" src="https://github.com/LekhyaPonnamanda/MLWebApplication/assets/127657495/0900deec-5c22-49d6-98a6-481d64ab8e21">
+<img width="695" alt="MLWebapp_resultspage3" src="https://github.com/LekhyaPonnamanda/MLWebApplication/assets/127657495/edd0fb39-e665-47e2-bef6-9ec661d26925">
+<img width="921" alt="MLWebapp_resultspage4" src="https://github.com/LekhyaPonnamanda/MLWebApplication/assets/127657495/109febcf-1560-4164-9148-febe041c160d">
+
+
 # MLWebApplication
 ML Model trained on huge datasets to predict college students dropout rate
 # Project Goal: 
