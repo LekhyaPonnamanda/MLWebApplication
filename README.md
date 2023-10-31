@@ -1,7 +1,7 @@
 # MLWebApplication
 ML Model trained on huge datasets to predict college students dropout rate
 # Project Goal: 
-Develop a predictive model using machine learning classification algorithms to identify students likely to drop out.
+Developed a predictive model using machine learning classification algorithms to identify students likely to drop out.
 
 # Data Sources: 
 Utilize data from various sources, including internal and external data from different educational institutions spanning from 2008/2009 to 2018/2019.
