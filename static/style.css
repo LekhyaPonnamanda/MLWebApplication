@@ -1,0 +1,201 @@
+/* Reset CSS for consistent styles across browsers */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: teal;
+    border: 1px solid #55c521;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(37, 225, 62, 0.1);
+    text-align: left;
+}
+
+.form-container p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-container select,
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.form-container select:focus,
+.form-container input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 4px #b0d617;
+    border-color: #a2bd0a;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #800080;
+}
+/**/
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.intro{
+    background-color: #7FFFD4;
+}
+body {
+    background-image: url('../images/bgc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Roboto', sans-serif; /* Example of using Google Fonts */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Default text color */
+}
+
+/* Header styles */
+.intro {
+    text-align: right;
+    margin-bottom: 20px;
+    color: #800080; /* Dark purple */
+}
+
+/* Form styles */
+form {
+    background: #BC8F8F; /* Light brown */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(37, 225, 62, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+form p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Input and select styles */
+input[type="number"],
+select,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+input[type="number"]:focus,
+select:focus,
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 4px #b0d617;
+    border-color: #a2bd0a;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #800080; /* Dark purple on hover */
+}
+
+/* Footer styles */
+.end {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 36px;
+    color: #121213; /* Golden yellow */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #cfcf24;
+    margin-top: 0;
+}
+
+/* Text alignment styles */
+.intro,
+.ans,
+.end {
+    text-align: center;
+}
+
+/* Result styles */
+.ans,
+.out1 {
+    padding: 10px;
+}
+
+.out1 {
+    font-size: 24px;
+    color: #cfcf24;
+    text-align: center;
+}
+nav{
+  color: whitesmoke;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* You can change this color to your desired text color */
+    font-size: 18px; /* You can change this font size to your desired size */
+    font-weight: bold; /* You can change this to 'normal' if you don't want bold text */
+    font-family: Arial, sans-serif; /* You can change the font family to your desired style */
+}
+
+nav a:hover {
+    color: rgb(203, 22, 22); /* You can change this color for hover effect */
+    /* You can also add other hover styles like background-color or underline */
+}
+

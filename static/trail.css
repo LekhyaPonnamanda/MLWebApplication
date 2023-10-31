@@ -1,0 +1,87 @@
+/* Base Styles */
+body,
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('../images/background_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style your form container with a fixed height and scrolling */
+.form-container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width if desired */
+    padding: 20px; /* Add some padding for spacing */
+    border: 1px solid #ccc; /* Add a border for clarity */
+    border-radius: 5px; /* Add rounded corners if desired */
+    overflow-y: auto; /* Enable scrolling if the content exceeds the container height */
+}
+
+.form-container h1 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-container select,
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-container select:focus,
+.form-container input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styles (you can customize further) */
+.form-container label {
+    font-size: 16px;
+}
+
+.form-container .end {
+    text-align: center;
+    margin-top: 20px;
+}
