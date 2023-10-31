@@ -1,0 +1,136 @@
+table th a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set link color to white */
+    display: block; /* Make the entire <th> clickable */
+    padding: 10px; /* Add padding for better clickability */
+}
+
+table th a:hover {
+    color: #1dae5e; /* Change link color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #BC8F8F;
+    border-radius:50px;
+}
+
+th a:hover {
+    color: #008B8B; /* Change the color to red when hovering */
+  }
+  h2 {
+    color: #008080;
+   }
+        footer{
+            position:relative;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background:#800000;
+            height:auto;
+            width: 100vw;
+            font-family: "Open Sans";
+            padding-top: 40px;
+            color: #fff;
+        }
+        .footer-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-content h3{
+            font-size: 1.8rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 3rem;
+        }
+        .footer-content p{
+            max-width: 300px;
+            margin: 10px auto;
+            line-height: 20px;
+            font-size: 10px;
+        }
+        .footer-bottom{
+            background: #7e2323;
+            width: 100vw;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-bottom p{
+            font-size: 10px;
+            word-spacing: 2px;
+            text-transform: capitalize;
+        }
+        .footer-bottom span{
+            text-transform: uppercase;
+            opacity: .4;
+            font-weight: 200;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .image-item {
+            width: 30%;
+            border: 0px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+        
+        .image-item:hover {
+            background-color:#808080; /* Change background color on hover */
+            transform: scale(1.05); /* Scale the image slightly on hover */
+        }
+        
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+            border: none; /* Remove the border around images */
+        }
+        
+        .image-content {
+            padding: 10px;
+            text-align: center;
+        }
+        /* Add this CSS to your stylesheet or in a <style> tag in your HTML file */
+    .read-more-button {
+      background-color: #007bff; /* Default button color */
+      color: #D2691E;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      transition: background-color 0.3s; /* Smooth transition for the background color */
+    }
+
+   .read-more-button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+    }
+    /*--------mapstyle.css---------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+svg path{
+    fill: #B0E0E6;
+    stroke: black;
+    stroke-width: .25;
+}
+svg path:hover{
+    fill: #DEB887;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+       
+       
+       
